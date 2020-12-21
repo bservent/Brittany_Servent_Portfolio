@@ -49,7 +49,7 @@
   nav {
     position: absolute;
     right: 1.5rem;
-    top: 2.5rem;
+    top: 2.0rem;
   }
   
   h1,h2 {
@@ -58,7 +58,7 @@
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.50rem;
   }
   
   #nav {
@@ -310,6 +310,10 @@
   
     .nav-link {
       display: flex;
+    }
+
+    .nav {
+      top: 2.5rem;
     }
   
     .trapeze {
