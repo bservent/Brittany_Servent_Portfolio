@@ -56,6 +56,10 @@
     font-weight: 200;
     margin: 0.4em 0;
   }
+
+  h2 {
+    font-size: 2rem;
+  }
   
   #nav {
     border-right: 1.5px solid #343A3C;
