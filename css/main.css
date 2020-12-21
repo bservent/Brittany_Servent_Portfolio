@@ -309,7 +309,7 @@
     }
   
     .nav-link {
-      padding-right: 1rem;
+      display: flex;
     }
   
     .trapeze {
