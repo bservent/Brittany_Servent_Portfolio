@@ -81,7 +81,8 @@
   .projects {
     background-color: #343A3C;
     opacity: .9;
-    padding: 3rem 6rem 6rem 6rem;
+    background-size: cover;
+    padding: 3rem 6rem 6rem 7rem;
     margin: 3rem;
     color:#F6FAFA;
   }
@@ -104,9 +105,15 @@
   /******************* About ********************/
   
   .about, .resume {
-    background-color: #2C2731;
-    padding: 8rem 0rem 8rem 0rem;
-  }
+ /*    background-image: url("../images/smoke.png");
+    opacity: .95; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid #35393C;
+    margin: 3rem 0 3rem 0;
+    padding: 3rem 0 3rem 0;
+    background-color: #26272b;
+  } 
   
   /******************* Contact ********************/
   
@@ -123,7 +130,7 @@
   }
   
   .contact {
-    background-image: url("../images/smoke.png"), linear-gradient(to bottom right, #34ddd3, #FFC0CB);
+    background-image: url("../images/smoke.png");
     background-color: #343A3C;
     padding-bottom: 5rem;
   }
@@ -295,24 +302,24 @@
   
   /****************** Responsive *******************/
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 1000px) {
     body {
       background-size: auto;
     }
-  
+
     .slogan {
-     display: none;
-    }
-  
-    .hero {
-      margin-top: 70px;
+      display: none;
     }
   
     .nav-link {
-      display: flex;
+      display: none;
     }
   
     .trapeze {
+      display: none;
+    }
+
+    .about {
       display: none;
     }
   
