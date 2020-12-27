@@ -105,14 +105,12 @@
   /******************* About ********************/
   
   .about, .resume {
- /*    background-image: url("../images/smoke.png");
-    opacity: .95; */
     background-size: cover;
     background-repeat: no-repeat;
     border: 3px solid #35393C;
     margin: 3rem 0 3rem 0;
     padding: 3rem 0 3rem 0;
-    background-color: #26272b;
+    background-color: #343A3C;
   } 
   
   /******************* Contact ********************/
