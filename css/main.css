@@ -111,7 +111,6 @@
     border: 3px solid #35393C;
     margin: 3rem 0 3rem 0;
     padding: 3rem 0 3rem 0;
-    /* background-color: #343A3C; */
   } 
   
   /******************* Contact ********************/
@@ -130,7 +129,6 @@
   
   .contact {
     background-image: url("../images/smoke.png");
-    /* background-color: #343A3C; */
     padding-bottom: 5rem;
   }
   
