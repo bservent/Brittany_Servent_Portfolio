@@ -112,6 +112,13 @@
     margin: 3rem 0 3rem 0;
     padding: 3rem 0 3rem 0;
   } 
+  .resume {
+    background-color: #26272b;
+  }
+  
+  #resume {
+    opacity: 1.0 !important;
+  }
   
   /******************* Contact ********************/
   
